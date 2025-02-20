@@ -1,7 +1,7 @@
 {
   "name": "load-that-config",
   "version": "1.0.0",
-  "description": "Load config file from file and check for its format correctness ",
+  "description": "Load config file to json obj and check for correct format",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

@@ -1,0 +1,25 @@
+{
+  "name": "load-that-config",
+  "version": "1.0.0",
+  "description": "Load config file from file and check for its format correctness ",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "author": "shizongli94",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "json5": "^2.2.3",
+    "yaml": "^2.7.0"
+  }
+}

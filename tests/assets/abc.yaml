@@ -1,0 +1,5 @@
+countries:
+  - name: China
+    continent: Asia
+  - name: France
+    continent: Europe

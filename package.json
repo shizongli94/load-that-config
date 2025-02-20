@@ -1,15 +1,15 @@
 {
   "name": "load-that-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Load config file to json obj and check for correct format",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shizongli94/fail-2b-good.git"
+    "url": "git+https://github.com/shizongli94/load-that-config.git"
   },
   "bugs": {
-    "url": "https://github.com/shizongli94/fail-2b-good/issues"
+    "url": "https://github.com/shizongli94/load-that-config/issues"
   },
-  "homepage": "https://github.com/shizongli94/fail-2b-good#readme",
+  "homepage": "https://github.com/shizongli94/load-that-config#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

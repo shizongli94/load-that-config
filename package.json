@@ -1,6 +1,6 @@
 {
   "name": "load-that-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Load config file to json obj and check for correct format",
   "repository": {
     "type": "git",
@@ -11,27 +11,28 @@
   },
   "homepage": "https://github.com/shizongli94/load-that-config#readme",
   "type": "module",
-  "main": "./index.ts",
-  "types": "./index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./index.ts",
-      "import": "./index.ts",
-      "default": "./index.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
     }
   },
   "files": [
-    "index.ts",
-    "src"
+    "dist"
   ],
   "scripts": {
-    "test": "jest"
+    "build": "tsc -p tsconfig.json",
+    "test": "jest",
+    "prepublishOnly": "pnpm run build"
   },
   "author": "Zongli Shi",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.14",
-    "@types/node": "^22.13.4",
+    "@types/node": "^22.20.5",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.3"
